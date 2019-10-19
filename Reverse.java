@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 class Reverse{
+	/*
+	* Class for taking in user input in for of an integer or int array, and returning the reverse of that input.
+	*/
 	int value, revVal, length, multiplier;
 	int[] list, revlist;
 	Scanner scan = new Scanner(System.in);
