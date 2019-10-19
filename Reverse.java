@@ -27,6 +27,7 @@ class Reverse{
 	public int getValue() {
 		return value;
 	}
+	```
 	public void setValue(int num) {
 		value = num;
 		multiplier = (int)(Math.pow(10,(Math.floor(Math.log10(value)))));
@@ -37,6 +38,7 @@ class Reverse{
 		 * in a single operation using logs. 
 		 */
 	}
+	```
 	public int getIndex(int index) {
 		return list[index];
 	}
@@ -64,7 +66,7 @@ class Reverse{
 		list = new int[length];
 		revlist = new int[length];
 	}
-	
+	```
 	public int reverseValue(int modder,int value, int multiplier) {
 		/*
 		 * Recursive function for reversing any integer. 
@@ -84,7 +86,7 @@ class Reverse{
 		revVal = reverseValue(modder*10,(value-remainder),multiplier/10) + (digit)*multiplier;
 		return revVal;
 	}
-	
+	```
 	public void reverseList() {
 		/*
 		 * Method for populating the reverse array. Starts for the beginning of the
